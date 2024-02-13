@@ -7,11 +7,13 @@
 // Written by Caiden Sanders <work.caidensanders@gmail.com>, February 12, 2024.
 //
 
-#include <iostream>
 #include <math.h>
 
+#include <iostream>
+
 /**
- * Hash function using Horner's method to compute the hash value of a given string.
+ * Hash function using Horner's method to compute the hash value of a given
+ * string.
  *
  * @param s The string to compute the hash value of.
  * @param base The base to use for the hash function.
@@ -34,4 +36,6 @@ int main() {
     std::string s = "Hello, World!";
 
     std::cout << horner_hash(s);
+
+    return 0;
 }
